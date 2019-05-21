@@ -1,0 +1,14 @@
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: default;
+  -webkit-overflow-scrolling: touch;
+}::-webkit-scrollbar{
+   /* display: none; */
+}
+
+.card{
+  flex: 0 0 auto;
+}

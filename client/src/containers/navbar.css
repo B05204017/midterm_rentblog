@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC&display=swap');
+.navbar_container{
+    position: fixed;
+    background: #333;
+    width: 100%;
+    top: 0;
+    bottom: calc(100% - 50px);
+    left: 0;
+    z-index: 5;
+}
+
+.class a{
+    color: white;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration:350ms;
+}
+
+.navbar{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: .8em;
+    width: 90%;
+    margin: auto;
+    line-height: 0.5em;
+    display: flex;
+}
+
+.home_btn{
+    font-family: "Poppins";
+    font-weight: 700;
+    position: relative;
+    padding: 10px;
+    font-size: 2em;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+/* .home_btn:before{
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background: #7FDBFF;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 350ms;
+}
+
+.home_btn:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+} */
+
+.class{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.navbar ul{
+    margin: 10px 0;
+    padding: 0;
+}
+
+.navbar ul li{
+    position: relative;
+    margin-right: 20px;
+    padding: 10px 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar ul li a:hover{
+    color: #9a9a9a;
+}
+
+
+
+.SignIn{
+    padding: 10px;
+    width: 40px;
+    margin: auto;
+    margin-right: 10px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-property: background, color;
+    transition-duration: 350ms;
+}
+
+.SignIn:hover{
+    background:white;
+    color: #333;
+}

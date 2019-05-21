@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC&display=swap');
+
+body {
+  user-select: none;
+  background-color: #ECECEC;
+  font-family: 'Noto Sans TC','Poppins', sans-serif;
+  overflow-y: hidden;
+}
+
